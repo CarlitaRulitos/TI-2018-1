@@ -1,3 +1,5 @@
+package com.carlitarulitos;
+
 import java.io.*;
 
 public class Cafeta {
@@ -156,4 +158,4 @@ public class Cafeta {
             }
         }
     }
-    }
+}

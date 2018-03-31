@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Entregable_2/src/com/com.iml" filepath="$PROJECT_DIR$/Entregable_2/src/com/com.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Entregable_2/Entregable_2.iml" filepath="$PROJECT_DIR$/Entregable_2/Entregable_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TI-2018-1.iml" filepath="$PROJECT_DIR$/TI-2018-1.iml" />
     </modules>
   </component>
 </project>
