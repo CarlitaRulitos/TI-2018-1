@@ -23,4 +23,8 @@ public abstract class Avion {
     public int getNumero() {
         return numero;
     }
+
+    public String getDestino(){
+        return destino;
+    }
 }

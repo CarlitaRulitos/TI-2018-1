@@ -13,6 +13,10 @@ public class NodoPasajero {
         return pasajero;
     }
 
+    public void setPasajero(Pasajero nuevo){
+        pasajero = nuevo;
+    }
+
     public NodoPasajero getSig() {
         return sig;
     }

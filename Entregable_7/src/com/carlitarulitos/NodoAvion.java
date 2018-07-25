@@ -16,4 +16,8 @@ public class NodoAvion {
     public Avion getAvion(){
         return avion;
     }
+
+    public void setSig(NodoAvion sig) {
+        this.sig = sig;
+    }
 }

@@ -24,6 +24,10 @@ public class Pasajero {
         return rut;
     }
 
+    public int getEdad(){
+        return edad;
+    }
+
     public int contarAsientos(int numero){
         int cont=0;
         for (int i=0; i<pLibre; i++){
@@ -42,4 +46,26 @@ public class Pasajero {
         }
         return false;
     }
+
+    public int quitarVuelo(int numVuelo){
+        int cont = 0;
+        for(int  i=0; i < pLibre ; i++){
+            if(viajes[i].getNumero() == numVuelo){
+                viajes[i] = viajes[pLibre-1];
+                pLibre--;
+                i--;
+                cont++;
+            }
+        }
+        return cont;
+    }
+
+
+    public void asignarVuelo(Avion avion, int cant){
+        for(int i = 1; i <= cant; i++){
+            viajes[pLibre] = avion;
+            pLibre++;
+        }
+    }
+
 }
